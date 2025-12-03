@@ -12,7 +12,7 @@ import { Profile } from './components/profile/Profile';
 
 const AppContent: React.FC = () => {
   const { state } = useApp();
-// egtter chuda saka paka lala
+// egtter chuda saka paka lala snata
   const renderPage = () => {
     switch (state.currentPage) {
       case 'login':
