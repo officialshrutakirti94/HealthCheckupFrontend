@@ -12,7 +12,7 @@ import { Profile } from './components/profile/Profile';
 
 const AppContent: React.FC = () => {
   const { state } = useApp();
-
+// egtter
   const renderPage = () => {
     switch (state.currentPage) {
       case 'login':
